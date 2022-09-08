@@ -1,0 +1,186 @@
+/*About me Section */
+
+.about-me{
+    margin: 40px 16px;
+    text-align: center;
+}
+
+.about-me h6{
+    font-size: 0.9em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.about-me h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 12px;
+}
+
+.about-me p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.statistics-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    margin-top: 20px;
+}
+
+.statistic{
+    flex: 1;
+}
+
+.statistic h3{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.statistic h6{
+    font-size: 1.2em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* FAQ Section */
+
+.faq{
+    padding: 0 16px;
+}
+
+.faq h6{
+    font-size: 0.9em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.faq h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 12px;
+}
+
+.faq-question{
+    padding-top: 24px;
+}
+
+.faq-question h3 {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: left;
+
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.faq-question p{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+
+/*======================================================
+                       Desktop View
+ ======================================================*/
+
+@media (min-width: 992px){
+
+    .about-me{
+        padding: 80px 120px 0;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .about-me h6{
+        font-size: 1.1em;
+    }
+
+    .about-me h3{
+        font-size: 2.3em;
+    }
+
+    .about-me p{
+        padding: 0 40px;
+    }
+
+    .statistics-wrapper{
+        margin: 50px 80px;
+        gap: 10px;
+    }
+
+    .statistic h3{
+        font-size: 1.6em;
+    }
+
+    .faq{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+
+    .faq h6{
+        font-size: 1.1em;
+    }
+
+    .faq h3{
+        font-size: 2.3em;
+    }
+
+    .faq-question{
+        padding: 20px 60px;
+    }
+
+    .faq-question h3{
+        font-size: 1.1em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .faq-question p{
+        font-size: 1em;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /*Instagram-Twitter Section */
+    .instagram-twitter-wrapper{
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .about-headline p {
+        padding: 0 120px;
+    }
+
+    .faq-question{
+        padding: 20px 160px;
+    }
+}

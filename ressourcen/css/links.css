@@ -1,0 +1,165 @@
+/* tiktok-cooperation Section */
+
+.onlyfans-box, .tiktok-box, .cooperation-box, .instagram-box, .twitter-box, .cyberghost, .onlyfans-free, .amazon{
+    margin: 12px 0;
+}
+
+.onlyfans-box h3, .tiktok-box h3, .cooperation-box h3, .instagram-box h3, .twitter-box h3, .cyberghost h3, .onlyfans-free h3, .amazon h3{
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: white;
+}
+
+.onlyfans-box p, .tiktok-box p, .cooperation-box p, .instagram-box p, .twitter-box p{
+    font-size: 1.1em;
+    padding-right: 80px;
+    color: white;
+}
+
+.tiktok-cooperation-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 13px 0;
+}
+
+.onlyfans-box{
+    background-image: url(../../ressourcen/img/img/thejanandonly-herobanner.jpg);
+    height: 20vh;
+    padding: 90px 0 90px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+}
+
+.tiktok-box{
+    background-image: url(../../ressourcen/img/img/tiktok-banner.jpg);
+    height: 20vh;
+    padding: 90px 0 90px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+}
+
+.cooperation-box{
+    background-image: url(../../ressourcen/img/img/cooperation-banner.jpg);
+    height: 20vh;
+    padding: 90px 0 60px 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+}
+
+.twitter-box{
+    background: rgb(130, 43, 211);
+    background: linear-gradient(90deg, rgba(130, 43, 211, 1) 0%, rgba(195, 21, 52, 1) 85%);
+    color: white;
+
+}
+
+.button-tiktok-cooperation{
+    margin-top: 20px;
+}
+
+/*Instagram-Twitter Wrapper Section */
+
+.instagram-twitter-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 13px;
+}
+
+.instagram-box{
+    background-image: url(../../ressourcen/img/img/instagram-banner.jpg);
+    height: 20vh;
+    padding: 90px 0 90px 26px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    flex: 2;
+}
+
+.twitter-box{
+    background: rgb(130,43,211);
+    background: linear-gradient(210deg, rgba(130,43,211,1) 0%, rgba(195,21,52,1) 85%);;
+    max-height: 120px;
+    padding: 40px 0 40px 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex: 1;
+}
+
+.twitter-box p{
+    padding: 0;
+}
+
+.cyberghost{
+    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    padding: 40px 0 40px 26px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 100%;
+}
+
+.onlyfans-free{
+    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    padding: 40px 0 40px 26px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 100%;
+}
+
+.onlyfans-free span{
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.amazon{
+    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    padding: 40px 0 40px 26px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+
+    .links-margin{
+        margin: 0 auto;
+        max-width: 600px;
+        padding-bottom: 40px;
+    }
+
+    .tiktok-box, .cooperation-box, .instagram-box, .onlyfans-box{
+        height: unset;
+    }
+
+    .twitter-box, .instagram-box{
+        flex: unset;
+    }
+}
+
+
+
+

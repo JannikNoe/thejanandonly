@@ -1,0 +1,302 @@
+/* Reasons Section */
+
+.reasons{
+    background-color: var(--second-bg-color);
+    padding: 40px 16px;
+}
+
+.reasons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.reason{
+    margin-bottom: 16px;
+}
+
+.reason img{
+    width: 100%;
+    max-width: 50px;
+    padding-bottom: 16px;
+}
+
+.reason h3{
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.reason h6{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/*Cooperation Section */
+
+.cooperation{
+    padding: 40px 13px 20px;
+}
+
+.cooperation h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 12px;
+    text-align: center;
+}
+
+.cooperation h6{
+    font-size: 0.9em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.cooperation-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cooperation-step-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.cooperation-step-wrapper h3{
+    font-size: 3em;
+    flex: 1;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.cooperation-step-txt{
+    flex: 4;
+}
+
+.cooperation-step-txt h5{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.cooperation-step-txt p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* projects Section */
+
+.projects{
+    padding: 20px 13px 40px;
+}
+
+.projects h6{
+    font-size: 0.9em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.projects h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 12px;
+    text-align: center;
+}
+
+.projects-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cyberghost{
+    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    height: 24vh;
+    max-height: 80px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.junx{
+    background-image: url(../../ressourcen/img/projects/junx.jpg);
+    height: 24vh;
+    max-height: 80px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.croowsapp{
+    background-color: #85c6c5;
+    height: 24vh;
+    max-height: 80px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.project-img h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    padding: 0 0 0 24px;
+}
+
+.button-projects{
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+/*======================================================
+                       Desktop View
+ ======================================================*/
+
+@media (min-width: 992px) {
+
+    .reasons {
+        margin: 40px 0;
+    }
+
+
+    .reasons-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        padding: 40px;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .reason {
+        flex: 1;
+    }
+
+    .reason img {
+        max-width: 76px;
+    }
+
+    .reason h3{
+        font-size: 1.3em;
+    }
+
+    .reason p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    /*Cooperation Section */
+
+    .cooperation{
+        padding: 60px 0;
+    }
+
+    .cooperation h6{
+        font-size: 1.1em;
+    }
+
+    .cooperation h3{
+        font-size: 2.3em;
+    }
+
+    .cooperation-wrapper{
+        flex-wrap: nowrap;
+        gap: 40px;
+        margin: 0 30px;
+    }
+
+    .cooperation-step-wrapper{
+        gap: 20px;
+        flex: 1;
+    }
+
+    .cooperation-step-wrapper h3{
+        font-size: 4em;
+    }
+
+    /* Projects Section */
+
+    .projects{
+        padding: 40px 0;
+    }
+
+    .projects h6{
+        font-size: 1.1em;
+        line-height: normal;
+    }
+
+    .projects h3{
+        font-size: 2.3em;
+    }
+
+    .projects-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+        margin: 0 80px;
+    }
+
+    .croowsapp, .cyberghost, .junx{
+        padding: 60px 0;
+    }
+
+    .cyberghost span, .junx span, .croowsapp span{
+        font-size: 0.5em;
+        font-weight: 600;
+    }
+
+    .croowsapp h3, .cyberghost h3, .junx h3{
+        padding-left: 30px;
+    }
+
+    .button-projects{
+        margin-left: 30px;
+    }
+
+    .live-on-tiktok-wrapper{
+        margin-top: 40px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .cooperation-wrapper{
+        margin: 0 120px;
+    }
+}

@@ -1,0 +1,546 @@
+/*Herobanner Section */
+
+.herobanner-wrapper{
+    background-image: url(../../ressourcen/img/img/thejanandonly-herobanner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 16px;
+    padding: 50px 30px;
+    color: white;
+}
+
+.herobanner-txt{
+    text-align: left;
+}
+
+.herobanner-txt h5{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.herobanner-txt h4{
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.herobanner-txt h3{
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.button-herobanner{
+    margin-top: 20px;
+}
+
+/* tiktok-cooperation Section */
+
+.tiktok-box, .cooperation-box, .instagram-box, .twitter-box{
+    background-color: var(--second-bg-color);
+    padding: 40px 30px;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.cooperation-box{
+    background-image: url(../../ressourcen/img/img/cooperation-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: white;
+}
+
+.tiktok-box{
+    background-image: url(../../ressourcen/img/img/tiktok-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: white;
+}
+
+.instagram-box{
+    background-image: url(../../ressourcen/img/img/instagram-banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.twitter-box{
+    background: rgb(130,43,211);
+    background: linear-gradient(210deg, rgba(130,43,211,1) 0%, rgba(195,21,52,1) 85%);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.tiktok-box h3, .cooperation-box h3, .instagram-box h3, .twitter-box h3{
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.tiktok-box p, .cooperation-box p, .instagram-box p, .twitter-box p{
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.button-tiktok-cooperation{
+    margin-top: 20px;
+}
+
+/*About Section */
+.about{
+    margin: 40px 16px;
+}
+
+.about-headline{
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.about-headline h6{
+    font-size: 0.9em;
+}
+
+.about-headline h3{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 12px;
+}
+
+.about-headline p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.about-content-wrapper{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.about-content-img{
+    margin: 0 auto;
+}
+
+.about-content-img img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+}
+
+.about-content-txt{
+    margin: 30px 0 20px;
+}
+
+.about-content-txt h6{
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.about-content-txt p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.about-content-button{
+    margin-top: 20px
+}
+
+/* Last video-section */
+.last-videos{
+    padding: 40px 16px;
+    background-color: var(--second-bg-color);
+}
+
+.last-video-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+
+.last-video-img img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.last-videos h6{
+    font-size: 0.9em;
+    color: #822bd3;
+    background-image: -webkit-linear-gradient(0deg, #822bd3 0%, #c31534 76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.last-videos h5{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 0 20px;
+}
+
+.last-videos-button {
+    margin: 30px 0 0;
+    text-align: center;
+}
+
+/*Instagram-Twitter Wrapper Section */
+
+.instagram-twitter-wrapper{
+    margin: 40px 0;
+}
+
+.instagram-box{
+    background-color: #c45df6;
+    color: white;
+}
+
+/*Live-on-Tiktok-wrapper*/
+
+.live-on-tiktok-wrapper{
+    margin: 40px 16px;
+}
+
+.live-on-tiktok-thumbnail{
+    text-align: center;
+}
+
+.live-on-tiktok-thumbnail img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+}
+
+.live-on-tiktok-txt{
+    margin-top: 30px;
+}
+
+.live-on-tiktok-txt h6{
+    font-size: 0.9em;
+}
+
+.live-on-tiktok-txt h5{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 8px 70px 20px 0;
+}
+
+.live-on-tiktok-txt p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.button-live-on-tiktok{
+    margin-top: 20px;
+}
+
+/*======================================================
+                       Desktop View
+ ======================================================*/
+
+@media (min-width: 992px){
+
+    /*Herobanner Section */
+
+    .herobanner-wrapper{
+        margin: 0 60px;
+        background-image: url(../../ressourcen/img/img/thejanandonly-herobanner.jpg);
+        height: 65vh;
+        max-height: 470px;
+        padding-top: 70px;
+        padding-bottom: 60px;
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .herobanner-txt{
+        text-align: left;
+        padding-left: 100px;
+        margin: 100px 0 0 0;
+        color: white;
+    }
+
+    .herobanner-txt h3{
+        font-size: 3.1em;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .herobanner-txt h4{
+        font-size: 1.6em;
+        font-weight: 600;
+        padding-bottom: 4px;
+        letter-spacing: 1.5px;
+        padding-top: 21px;
+    }
+
+    .herobanner-txt h5{
+        font-weight: 300;
+        font-size: 1.1em;
+        padding-right: 400px;
+        line-height: 1.3em;
+    }
+
+    .button-herobanner{
+        margin-top: 40px;
+    }
+
+    /*tiktok-cooperation-wrapper Section */
+
+    .tiktok-cooperation-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .tiktok-box{
+        background-image: url(../../ressourcen/img/img/tiktok-banner.jpg);
+        height: 20vh;
+        max-height: 180px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        text-align: left;
+    }
+
+    .cooperation-box{
+        background-image: url(../../ressourcen/img/img/cooperation-banner.jpg);
+        height: 20vh;
+        max-height: 180px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        text-align: left;
+    }
+
+    .tiktok-box, .cooperation-box, .instagram-box, .twitter-box{
+        padding-left: 50px;
+        padding-top: 120px
+    }
+
+    .tiktok-box h3, .cooperation-box h3, .instagram-box h3, .twitter-box h3{
+        font-size: 2.3em;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .tiktok-box p, .cooperation-box p, .instagram-box p, .twitter-box p{
+        font-size: 1.1em;
+        padding-right: 200px;
+        color: white;
+    }
+
+    /* about Section */
+
+    .about{
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: 80px 120px;
+    }
+
+    .about-headline h6{
+        font-size: 1.1em;
+    }
+
+    .about-headline h3{
+        font-size: 2.3em;
+    }
+
+    .about-headline p{
+        padding: 0 40px;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .about-content-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0 60px;
+        gap:40px;
+    }
+
+    .about-content-img{
+        flex: 1;
+        text-align: center;
+    }
+
+    .about-content-txt{
+        flex: 2;
+    }
+
+    .about-content-txt p{
+        padding-bottom: 12px;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .about-content-img img{
+        max-width: 300px;
+        min-width: 200px;
+    }
+
+    /* Last Videos Section */
+
+    .last-videos{
+        padding: 80px 60px;
+    }
+
+    .last-video-img-wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding-bottom: 12px;
+    }
+
+    .last-video-img img{
+        max-width: 500px;
+    }
+
+    .last-videos h6{
+        font-size: 1.1em;
+    }
+
+    .last-videos h5{
+        font-size: 2.3em;
+        padding-bottom: 30px;
+    }
+
+    /* Instagram-twitter Wrapper Section */
+
+    .instagram-twitter-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .instagram-box{
+        background-image: url(../../ressourcen/img/img/instagram-banner.jpg);
+        height: 20vh;
+        max-height: 180px;
+        padding-top: 120px;
+        padding-bottom: 90px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        text-align: left;
+        flex: 2;
+    }
+
+    .twitter-box{
+        background: rgb(130,43,211);
+        background: linear-gradient(210deg, rgba(130,43,211,1) 0%, rgba(195,21,52,1) 85%);;
+        height: 20vh;
+        max-height: 180px;
+        padding-top: 120px;
+        padding-bottom: 90px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+        flex: 1;
+        padding-left: 30px;
+    }
+
+    .twitter-box p{
+        padding: 0;
+    }
+
+    /* live-on-tiktok-wrapper Section */
+
+    .live-on-tiktok-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 16px;
+        gap: 20px;
+    }
+
+    .live-on-tiktok-thumbnail{
+        flex: 4;
+        text-align: left;
+    }
+
+    .live-on-tiktok-thumbnail img{
+        max-width: 500px;
+    }
+
+    .live-on-tiktok-txt{
+        flex: 5;
+    }
+
+    .live-on-tiktok-txt h6{
+        font-size: 1.1em;
+    }
+
+    .live-on-tiktok-txt h5{
+        font-size: 2.3em;
+        padding-bottom: 30px;
+    }
+
+    .live-on-tiktok-txt p{
+        font-size: 1em;
+        font-weight: 400;
+        padding-bottom: 12px;
+    }
+
+
+}
+
+@media (min-width: 1200px){
+
+    /*Herobanner Section */
+
+    .herobanner-txt h5{
+        padding-right: 510px;
+    }
+
+    /* About Section */
+
+    .about-headline p {
+        padding: 0 120px;
+    }
+}
+
+@media (min-width: 1400px){
+
+    /*Herobanner Section */
+
+    .herobanner-txt h5{
+        padding-right: 730px;
+    }
+}
+
+
+

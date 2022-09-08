@@ -1,0 +1,467 @@
+/*======================================================
+                       CSS Reset
+ ======================================================*/
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+/*======================================================
+                       Helper
+ ======================================================*/
+
+    .t-left{
+        text-align: left;
+    }
+
+    .t-center{
+        text-align: center;
+    }
+
+    .t-right{
+        text-align: right;
+    }
+
+    .content-1400{
+        margin: 0 auto;
+        max-width: 1400px;
+    }
+
+/*======================================================
+                       Standard Styles
+ ======================================================*/
+
+html{
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.4;
+}
+
+:root{
+    --main-bg-color: white; /* white */
+    --second-bg-color: #F7F7F7; /* light-grey */
+    --footer-bg-color: white; /* Footer */
+    --main-font-color: #121212;
+    --main-font: 'Montserrat';
+}
+
+/* Button Normal */
+
+@media (max-width: 992px) {
+    .button {
+        background-color: #f6a50a;
+        border-radius: 7px;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-family: var(--main-font);
+        padding: 12px 38px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .button:hover {
+        background-color: #dd7043;
+
+    }
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+.button a{
+    color: white;
+    font-weight: 600;
+}
+
+/*Button color ab 992px */
+
+@media (min-width: 992px) {
+
+    .button {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 8px;
+
+    }
+
+    .button:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3.5px;
+        bottom: 0;
+        left: 0;
+        background: rgb(130, 43, 211);
+        background: linear-gradient(90deg, rgba(130, 43, 211, 1) 0%, rgba(195, 21, 52, 1) 85%);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .button:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .button a{
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    .button-black a{
+        color: #121212;
+        background-color: white;
+        padding: 12px 18px;
+        border-radius: 12px;
+    }
+
+    .button-black-whitebg a{
+        color: #121212;
+        background-color: var(--second-bg-color);
+        padding: 12px 50px;
+        border-radius: 12px;
+    }
+}
+
+
+/*======================================================
+                       Header Mobil
+ ======================================================*/
+
+    .header-desktop-wrapper{
+        display: none;
+    }
+
+    .header-mobile-wrapper{
+        display: unset;
+    }
+
+    .header-mobile-wrapper{
+        margin: 28px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:6px;
+    }
+
+    .header-logo{
+        flex: 3;
+    }
+
+    #menu-button{
+        flex: 0.5
+    }
+
+    .header-logo h3{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+/*======================================================
+                   Burger Menu
+======================================================*/
+
+    #menu-button{
+        width: 100%;
+        max-width: 40px;
+        z-index: 101;
+        position: absolute;
+        display: block;
+        right: 0;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-right: 20px;
+
+    }
+
+    .burger-menu{
+        background-color: white;
+        padding: 130px 0 200px 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 99;
+        display: none;
+    }
+
+    .burger-menu ul a{
+        text-decoration: none;
+    }
+
+    .burger-menu ul li{
+        padding-bottom: 12px;
+    }
+
+    .burger-menu ul li a{
+        color: black;
+        list-style: none;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .burger-menu-socials{
+        margin-top: 20px;
+    }
+    .burger-menu-socials ul li img{
+        width: 100%;
+        max-width: 10vw;
+    }
+
+    .burger-menu-socials ul li{
+        display: inline;
+    }
+
+    .burger-menu-legal ul li{
+        font-size:0.9em;
+        font-weight: 300;
+    }
+
+.language img{
+    width: 100%;
+    max-width: 80px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+
+
+/*======================================================
+                       Header Desktop
+ ======================================================*/
+
+
+    @media (min-width: 992px){
+
+      .header-mobile-wrapper{
+          display: none;
+      }
+
+    }
+
+/*======================================================
+                       Bausteine Mobil
+ ======================================================*/
+
+
+
+/*======================================================
+                       Bausteine Desktop
+ ======================================================*/
+
+    @media (min-width: 992px){
+
+        .header-desktop-wrapper{
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .header-logo{
+            flex: unset;
+        }
+
+        .header-logo img{
+            width: 100%;
+            max-width: 40px;
+        }
+
+        nav ul li{
+            display: inline;
+            font-size: 1em;
+            font-weight: 500;
+            margin: 0 18px;
+        }
+
+        nav li a{
+            color: var(--main-font-color);
+            position: relative;
+            padding: 6px 0;
+        }
+
+        nav li a:before{
+            content:'';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 0;
+            background: rgb(130,43,211);
+            background: linear-gradient(90deg, rgba(130,43,211,1) 0%, rgba(195,21,52,1) 85%);
+            transition: all 0.4s ease;
+        }
+
+        nav li a:hover:before{
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .socials-flag-button-wrapper{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap:12px;
+        }
+
+        .language img{
+            width: 100%;
+            max-width: 50px;
+            border-radius: 8px;
+            margin: 0;
+        }
+
+        .socials-wrapper{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .socials-wrapper img{
+            max-width: 20px;
+            width: 100%;
+        }
+
+        .button-header{
+            padding: 10px 0;
+        }
+
+        .button-header a{
+            font-size: 1em;
+            color: black;
+            font-weight: 600;
+
+        }
+
+    }
+
+    @media (min-width: 1200px){
+
+        .socials-flag-button-wrapper{
+            gap: 30px;
+        }
+
+        nav{
+            margin-right: 100px;
+        }
+    }
+
+/*======================================================
+                       Footer Mobil
+ ======================================================*/
+
+    .footer-wrapper{
+        background-color: var(--second-bg-color);
+        text-align: center;
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-love{
+        width: 100%;
+    }
+
+    .footer-love h3{
+        font-weight: 300;
+    }
+
+    .footer-legals{
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .footer-legals ul li{
+        display: inline;
+        color: black;
+        font-weight: 600;
+        margin: 0 2px;
+        }
+
+    .footer-legals a{
+        color: var(--main-font-color)
+    }
+
+    .footer-socials-wrapper{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .footer-socials-wrapper img{
+        width: 100%;
+        max-width: 20px;
+    }
+
+/*======================================================
+                       Footer Desktop
+ ======================================================*/
+
+    @media (min-width: 992px){
+
+            .footer-wrapper{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-end;
+                flex-wrap: nowrap;
+            }
+
+        .footer-socials-wrapper{
+            padding-top: 0;
+        }
+
+        }
