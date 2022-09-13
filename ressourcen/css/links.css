@@ -1,10 +1,10 @@
 /* tiktok-cooperation Section */
 
-.onlyfans-box, .tiktok-box, .cooperation-box, .instagram-box, .twitter-box, .cyberghost, .onlyfans-free, .amazon{
+.onlyfans-box, .tiktok-box, .cooperation-box, .instagram-box, .top4fans-box, .twitter-box, .cyberghost, .onlyfans-free, .amazon{
     margin: 12px 0;
 }
 
-.onlyfans-box h3, .tiktok-box h3, .cooperation-box h3, .instagram-box h3, .twitter-box h3, .cyberghost h3, .onlyfans-free h3, .amazon h3{
+.onlyfans-box h3, .tiktok-box h3, .cooperation-box h3, .instagram-box h3, .top4fans-box h3, .twitter-box h3, .cyberghost h3, .onlyfans-free h3, .amazon h3{
     font-size: 1.7em;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -12,7 +12,7 @@
     color: white;
 }
 
-.onlyfans-box p, .tiktok-box p, .cooperation-box p, .instagram-box p, .twitter-box p{
+.onlyfans-box p, .tiktok-box p, .cooperation-box p, .instagram-box p, .top4fans-box p, .twitter-box p{
     font-size: 1.1em;
     padding-right: 80px;
     color: white;
@@ -31,6 +31,17 @@
     height: 20vh;
     padding: 90px 0 90px 30px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+}
+
+.top4fans-box{
+    background-image: url(../../ressourcen/img/img/top4fans.jpg);
+    height: 20vh;
+    padding: 90px 0 90px 30px;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -119,9 +130,9 @@
 }
 
 .onlyfans-free{
-    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    background-image: url(../../ressourcen/img/img/onlyfans-free.jpg);
     padding: 40px 0 40px 26px;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
@@ -134,9 +145,10 @@
 }
 
 .amazon{
-    background-image: url(../../ressourcen/img/projects/cyberghost.jpg);
+    background: rgba(0, 0, 0, .2) url(../../ressourcen/img/img/amazon.jpg);
+    background-blend-mode: darken;
     padding: 40px 0 40px 26px;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
@@ -151,11 +163,11 @@
         padding-bottom: 40px;
     }
 
-    .tiktok-box, .cooperation-box, .instagram-box, .onlyfans-box{
+    .tiktok-box, .cooperation-box, .instagram-box, .top4fans-box, .onlyfans-box{
         height: unset;
     }
 
-    .twitter-box, .instagram-box{
+    .twitter-box, .instagram-box, .top4fans-box{
         flex: unset;
     }
 }
